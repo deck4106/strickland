@@ -1,0 +1,80 @@
+
+html{
+  font-size: 1.2em;
+}
+
+@media print {
+    
+      html, body {
+        height:100%; 
+        margin: 0 !important; 
+        padding: 0 !important;
+        overflow: visible;
+        display:block;
+        font-size: 1.2rem;
+      }
+
+      .transcript-content{
+          height:auto;
+          min-height:5000px;
+          overflow:visible;
+          display:block;
+      }
+    
+    }
+
+    td{vertical-align: top;padding:15px;}
+
+  .timestamp{font-size:10px;}
+  .grey {
+    color: grey;
+    height: 3px;
+    width: 80%;
+    line-height: 2px;
+    float:left;
+    margin-bottom:1px; 
+    overflow: hidden;
+}
+
+.anchored-highlight{background:aquamarine;}
+  .featured{display:block;float:none; clear:both;}
+  .line{display: block; font-size:11px; float:left;width:auto;}
+  .words{min-width: 650px;
+    @include media-query($on-palm) {min-width: 250px;}}
+ .grey .words, .grey .timestamp, .grey .speaker, .grey .line {
+    display: inline;
+    font-size: 3px;
+    padding: 0px 5px;
+}
+
+.filteroptions, .searchinput{font-size:24px; 
+    @include media-query($on-palm) { font-size:18px;}}
+    
+.notes-container{
+list-style:disc;
+    li{margin:10px 0px;}
+}
+
+.toggle_int:hover{color:pink}
+.toggle_int small{font-size:12px;}
+
+#scroll-to-top {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 15%; /* Place the button at the bottom of the page */
+  right: -10px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 5px 23px 5px 10px;
+  border-radius: 10px;
+  font-size: 40px;
+  }
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+#scroll-to-top {
+  @include media-query($on-palm) { font-size:28px;}
+}
