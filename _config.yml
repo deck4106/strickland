@@ -20,11 +20,11 @@ email: dbecker@uidaho.edu
 collection-date: "2018"
 
 # url is your gh-pages base, following the pattern: username.github.io
-url: https://uidaholib.github.io
+url: https://deck4106.github.io
 # baseurl is your github repository's name prefixed with a /
-baseurl: /oral-history-as-data
+baseurl: /strickland
 # repository is the github repository's full url
-repository: https://github.com/uidaholib/oral-history-as-data
+repository: https://github.com/deck4106/strickland
 
 # IF you are hosting your interviews at Vimeo, Soundcloud or Youtube, use this section to detail the service and, if necessary, your userid
 av_source: youtube #[options: youtube, soundcloud, or vimeo]
