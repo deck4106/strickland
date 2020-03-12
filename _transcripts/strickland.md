@@ -6,4 +6,7 @@ location: New York, NY
 audiovideo-id: 
 ---
 
-Stephanie Strickland is a poet
+Stephanie Strickland is a **poet** *yes* 
+
+- jlkjlk 
+- jlkjkl 
